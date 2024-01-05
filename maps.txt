@@ -1,0 +1,19 @@
+"""
+TILEMAP DESIGN
+[g=grass]
+[b=free-building-place]
+[e=empire-house]
+[p=path, pol=path_up_left, pom=path_up_middle, por=path_up_right, pml=path_middle_left, pmr=path_middle_right, pul=path_down_left, pum=path_down_middle, pur=path_down_right]
+[s=strong-defense]
+"""
+
+tile_map:    [
+    ["g",   "g",    "g",    "g",    "g",    "g",    "g",    "b",    "g",    "g",    "g",    "b",    "g",    "g",    "g",    "b",    "g",    "g"],
+    ["g",   "g",    "pol",  "pom",  "por",  "g",    "pol",  "pom",  "por",  "g",    "pol",  "pom",  "por",  "g",    "pol",  "pom",  "por",  "g"],
+    ["g",   "s",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "g"],
+    ["g",   "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g"],
+    ["e",   "pum",  "pur",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "g"],
+    ["g",   "g",    "g",    "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g",    "pml",  "g"],
+    ["g",   "s",    "g",    "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "b",    "pml",  "g"],
+    ["g",   "g",    "g",    "g",    "pul",  "pum",  "pur",  "g",    "pul",  "pum",  "pur",  "g",    "pul",  "pum",  "pur",  "g",    "pul",  "pum"],
+    ["g",   "g",    "g",    "g",    "g",    "b",    "g",    "g",    "g",    "b",    "g",    "g",    "g",    "b",    "g",    "g",    "g",    "g"]]

@@ -1,0 +1,16 @@
+[MAP]
+column_size: 16
+row_size: 9
+tile_map:    [
+    ["boden",   "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden",    "boden"],
+    ["wand",   "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand",    "wand"],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    ""],
+    ["empire_1",   "empire_2",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    ""],
+    ["empire_3",   "empire_4",    "p_gerade_horizontal_ende",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_kurve_oben_rechts",    "",    "",    "",    "",    "",    "",    ""],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "p_gerade_vertikal",    "",    "",    "",    "",    "",    "",    ""],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "p_kurve_unten_links",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal",    "p_gerade_horizontal"],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    ""],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    ""],
+    ["",   "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    "",    ""]]
+start_point: [16, 7]
+end_point: [3, 5]
